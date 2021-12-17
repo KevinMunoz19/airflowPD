@@ -9,6 +9,8 @@ se eliminan los datos existentes y se hace un insert del dataframe.
 
 ## Shiny Apps en R
 
+https://github.com/KevinMunoz19/ProyectoPD
+
 Una vez creado el app, se realizo un archivo Dockerfile, en el cual se utiliza una imagen de rocker/verse, y se instalan las librerias correspondintes, asi como las dependencias 
 y packages utilizados en R. La aplicacion corre en localhost, en el puerto 3838.
 Para poder utilizar la base de datos del proyecto de Airflow en Shiny, se hace uso del network creado por el proyecto de airflow, con el nombre de airflow_default, y con el
